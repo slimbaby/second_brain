@@ -63,3 +63,21 @@ Strong success criteria let you loop independently. Weak criteria ("make it work
 ---
 
 **These guidelines are working if:** fewer unnecessary changes in diffs, fewer rewrites due to overcomplication, and clarifying questions come before implementation rather than after mistakes.
+
+## 5. Git Push Automation
+
+**When pushing code to GitHub, always update README.md first.**
+
+Before executing `git push`:
+1. Analyze the current codebase structure and changes
+2. Update README.md with:
+   - Project description and features
+   - Tech stack (dependencies and versions from package.json)
+   - Directory structure and file purposes
+   - Setup/installation instructions
+   - Environment variables required
+   - Available npm scripts
+3. Commit the README.md update
+4. Then proceed with push
+
+This ensures documentation stays synchronized with code.
