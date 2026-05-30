@@ -54,7 +54,7 @@ export default function LandingPage() {
               <MessageCircle className="h-12 w-12 text-primary mb-4 mx-auto" />
               <h3 className="text-xl font-semibold mb-2">AI 智能问答</h3>
               <p className="text-muted-foreground">
-                基于 DeepSeek V3 的强大语言模型
+                基于 DeepSeek 的强大语言模型，支持实时对话
               </p>
             </div>
           </div>
